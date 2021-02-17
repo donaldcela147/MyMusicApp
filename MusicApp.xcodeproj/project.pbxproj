@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		623FF019253A2B7D00D0A81C /* master.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 623FF018253A2B7C00D0A81C /* master.mp3 */; };
 		62A55BC225398C1800A55287 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A55BC125398C1800A55287 /* AppDelegate.swift */; };
 		62A55BC425398C1800A55287 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A55BC325398C1800A55287 /* SceneDelegate.swift */; };
 		62A55BC625398C1800A55287 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A55BC525398C1800A55287 /* ViewController.swift */; };
@@ -15,6 +16,12 @@
 		62A55BCE25398C1E00A55287 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62A55BCC25398C1E00A55287 /* LaunchScreen.storyboard */; };
 		62A55BD925398C1E00A55287 /* MusicAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A55BD825398C1E00A55287 /* MusicAppTests.swift */; };
 		62A55BE425398C1E00A55287 /* MusicAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A55BE325398C1E00A55287 /* MusicAppUITests.swift */; };
+		62A55BF725398CD000A55287 /* dashuria.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 62A55BF225398CCD00A55287 /* dashuria.mp3 */; };
+		62A55BF825398CD000A55287 /* bjondina.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 62A55BF325398CCE00A55287 /* bjondina.mp3 */; };
+		62A55BF925398CD000A55287 /* gabim.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 62A55BF425398CCE00A55287 /* gabim.mp3 */; };
+		62A55BFA25398CD000A55287 /* killthepain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 62A55BF525398CCF00A55287 /* killthepain.mp3 */; };
+		62A55BFB25398CD000A55287 /* cesku.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 62A55BF625398CD000A55287 /* cesku.mp3 */; };
+		62A55BFD2539972000A55287 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A55BFC2539972000A55287 /* PlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		623FF018253A2B7C00D0A81C /* master.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = master.mp3; sourceTree = "<group>"; };
 		62A55BBE25398C1800A55287 /* MusicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62A55BC125398C1800A55287 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62A55BC325398C1800A55287 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +57,12 @@
 		62A55BDF25398C1E00A55287 /* MusicAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62A55BE325398C1E00A55287 /* MusicAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAppUITests.swift; sourceTree = "<group>"; };
 		62A55BE525398C1E00A55287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62A55BF225398CCD00A55287 /* dashuria.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dashuria.mp3; sourceTree = "<group>"; };
+		62A55BF325398CCE00A55287 /* bjondina.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bjondina.mp3; sourceTree = "<group>"; };
+		62A55BF425398CCE00A55287 /* gabim.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gabim.mp3; sourceTree = "<group>"; };
+		62A55BF525398CCF00A55287 /* killthepain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = killthepain.mp3; sourceTree = "<group>"; };
+		62A55BF625398CD000A55287 /* cesku.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cesku.mp3; sourceTree = "<group>"; };
+		62A55BFC2539972000A55287 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +113,7 @@
 		62A55BC025398C1800A55287 /* MusicApp */ = {
 			isa = PBXGroup;
 			children = (
+				62A55BF125398CA200A55287 /* Audio */,
 				62A55BC125398C1800A55287 /* AppDelegate.swift */,
 				62A55BC325398C1800A55287 /* SceneDelegate.swift */,
 				62A55BC525398C1800A55287 /* ViewController.swift */,
@@ -126,6 +141,20 @@
 				62A55BE525398C1E00A55287 /* Info.plist */,
 			);
 			path = MusicAppUITests;
+			sourceTree = "<group>";
+		};
+		62A55BF125398CA200A55287 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				623FF018253A2B7C00D0A81C /* master.mp3 */,
+				62A55BF325398CCE00A55287 /* bjondina.mp3 */,
+				62A55BF625398CD000A55287 /* cesku.mp3 */,
+				62A55BF225398CCD00A55287 /* dashuria.mp3 */,
+				62A55BF425398CCE00A55287 /* gabim.mp3 */,
+				62A55BF525398CCF00A55287 /* killthepain.mp3 */,
+				62A55BFC2539972000A55287 /* PlayerViewController.swift */,
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,7 +220,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1170;
-				LastUpgradeCheck = 1170;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Florian Cela";
 				TargetAttributes = {
 					62A55BBD25398C1800A55287 = {
@@ -232,9 +261,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62A55BFA25398CD000A55287 /* killthepain.mp3 in Resources */,
+				623FF019253A2B7D00D0A81C /* master.mp3 in Resources */,
 				62A55BCE25398C1E00A55287 /* LaunchScreen.storyboard in Resources */,
+				62A55BFB25398CD000A55287 /* cesku.mp3 in Resources */,
+				62A55BF925398CD000A55287 /* gabim.mp3 in Resources */,
 				62A55BCB25398C1E00A55287 /* Assets.xcassets in Resources */,
 				62A55BC925398C1800A55287 /* Main.storyboard in Resources */,
+				62A55BF725398CD000A55287 /* dashuria.mp3 in Resources */,
+				62A55BF825398CD000A55287 /* bjondina.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62A55BC625398C1800A55287 /* ViewController.swift in Sources */,
+				62A55BFD2539972000A55287 /* PlayerViewController.swift in Sources */,
 				62A55BC225398C1800A55287 /* AppDelegate.swift in Sources */,
 				62A55BC425398C1800A55287 /* SceneDelegate.swift in Sources */,
 			);
@@ -342,6 +378,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -402,6 +439,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
